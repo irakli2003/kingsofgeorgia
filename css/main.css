@@ -7,10 +7,11 @@ html{
     
 }
 body{
-    background-color: rgb(203, 196, 196,0.7);
+    background-color: rgba(203, 196, 196, 0.9);
     width: 900px;
     margin: 0px auto;
-    box-shadow: 10px 10px 30px 
+    box-shadow: 10px 10px 30px ;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#4cffffff', endColorstr='#4cffffff'); /* IE */
 }
 /*menu*/
 a{
@@ -36,6 +37,7 @@ a{
     list-style: none;
     margin:0;
     padding:0;
+	margin-left: 12px;
 }
 .ul ul li {
     list-style: none;
@@ -58,8 +60,8 @@ a{
 }
 /*##########################*/
 .logo{
-    margin-top: -20px;
-    margin-bottom: -40px
+    width: 150px;
+    margin: 10px;
 }
 p{
     padding: 10px;
